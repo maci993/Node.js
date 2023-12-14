@@ -9,5 +9,5 @@ console.log(sortNumbers);
 let sum = numbers.reduce((acc, curr) => acc + curr, 0);
 console.log(sum);
 
-let findNumbers = numbers3.find(num => num < 40 );
+let findNumbers = numbers.find(num => num < 40 );
 console.log(findNumbers);
