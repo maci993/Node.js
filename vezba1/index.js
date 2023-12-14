@@ -25,7 +25,7 @@ function calculate(operation, a, b) {
       case"/":
       console.log(a / b);
       break;
-      default:
-        console.log("Error");
+      default: return "Error"
+        
   }
 }
